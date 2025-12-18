@@ -31,5 +31,5 @@ def grade_df(df_new):
     plt.tight_layout()
     plt.show()
 
-grade_df(pd.read_csv("csv_3.csv"))
-# grade_df(pd.read_csv("csv_3_cleaned.csv"))
+# grade_df(pd.read_csv("csv_3.csv"))
+grade_df(pd.read_csv("csv_3_cleaned.csv"))

@@ -2,9 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # CSV 1 불러오기
-df1 = pd.read_csv("csv3.csv")
+df1 = pd.read_csv("health_dataset_3.csv")
 
-# NaN 제거
+# NaN 제거 
 df1 = df1.dropna(subset=['Glucose','Disease_Prob'])
 
 # 산점도
